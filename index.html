@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="https://my-search.rthe.xyz/">
+        <link rel="stylesheet" href="index.css">
+        <title>My Search</title>
+        <style>input[type=search]::-webkit-search-cancel-button{
+            -webkit-appearance: none;}</style>
+    </head>
+    <body>
+        <div class="main" style="text-align: center;margin: 300px;">
+            <img src="data:image/png;base64,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" width="60" height="60" style="margin-bottom: -15px;"> 
+            <label class = "note" style="font-size: 45px;color: grey;text-align: right;margin-left: 30px;">My - Search</label>
+            <form action="https://www.baidu.com/baidu" target="_self" style="margin: 50px;">
+                <div class="get">
+                    <input type="search" name="word" size="80" placeholder="搜索" autocomplete="off"
+                    style="text-align: center;height: 50px;background-color: white;
+                    color: black;font-size: 18px;outline: none;border-width: 0px 0px 1px 0px;
+                    background-image: linear-gradient(white,rgb(250, 250, 255),white);
+                    border-style: solid;">
+                    <button type="submit" onmouseover="this.style.backgroundColor='lightblue';"
+                    onmouseout="this.style.backgroundColor='rgb(0, 210, 240)';" 
+                    style="background-color: rgb(0, 210, 240);outline: none;border: none;
+                    width: 48px;height: 48px;color: white;font-size: 16px;border-radius: 24px;">
+                    <p>> ></p>></button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
